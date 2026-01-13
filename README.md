@@ -1,1 +1,49 @@
-# Harvard-SQL-Final-project
+## Harvard-SQL-Final-project
+
+### Design Document
+
+#### Scope
+
+The database for CS50 SQL includes all entities necessary to facilitate the process of tracking cancer patients and their treatment. As such, included in the database's scope is:
+
+* Patients, including basic identifying information,
+* Doctors, including basic identifying information,
+* Patient diagnosis, which includes cancer type, stage and date, when the cancer was diagnosed,
+* Treatments, which include basic information about treatment,
+* Medications, which include information about prescribed medications,
+* Visits, including information about patients visits to the doctor.
+
+Out of scope are elements like current patient condition and side effects of the medications.
+
+#### Functional Requirements
+
+This database will support:
+
+* CRUD operations for patients and doctors;
+* Tracking all visits of the patients and their diagnosis;
+* Adding treatments and medications necessary to the patient.
+
+Note that in this iteration, the system will not support patient condition and side effects of the medications.
+
+#### Representation
+
+Entities are captured in SQLite tables with the following schema.
+
+#### Entities
+
+The database includes the following entities:
+
+##### Patients
+
+The `patients` table includes:
+
+
+* `id`, which specifies the unique ID for the patient as an `INTEGER`. This column thus has the `PRIMARY KEY` constraint applied.
+* `first_name`, which specifies the patient's first name as `TEXT`, given `TEXT` is appropriate for name fields.
+* `last_name`, which specifies the patient's last name. `TEXT` is used for the same reason as `first_name`.
+* `age`, which specifies the patient's age as an `INTEGER`.
+* `gender`, which specifies the patient's gender as `TEXT`.
+
+All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` constraint is not.
+
+
