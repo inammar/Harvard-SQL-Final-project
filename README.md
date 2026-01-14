@@ -46,4 +46,19 @@ The `patients` table includes:
 
 All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` constraint is not.
 
+##### Doctors
+
+The `doctors` table includes:
+
+* `id`, which specifies the unique ID for the instructor as an `INTEGER`. This column thus has the `PRIMARY KEY` constraint applied.
+* `first_name`, which specifies the instructor's first name as `TEXT`.
+* `last_name`, which specifies the instructor's last name as `TEXT`.
+* `specialty`, which specifies the doctor's specialty as `TEXT`.
+
+All columns (except`id`) in the `doctors` table are required and hence should have the `NOT NULL` constraint applied. No other constraints are necessary.
+
+
+
+
+
 
