@@ -57,6 +57,18 @@ The `doctors` table includes:
 
 All columns (except`id`) in the `doctors` table are required and hence should have the `NOT NULL` constraint applied. No other constraints are necessary.
 
+##### Diagnoses
+
+The `diagnoses` table includes:
+
+* `id`, which specifies the unique ID for the instructor as an `INTEGER`. This column thus has the `PRIMARY KEY` constraint applied.
+* `patient_id`, which is the ID of the patient who has diagnosis as an `INTEGER`. This column thus has the `FOREIGN KEY` constraint applied, referencing the `id` column in the `patients` table to ensure data integrity.
+* `cancer_type`, which is the type of the cancer set as `TEXT`.
+* `stage`, which is the stage of the cancer set as `TEXT`.
+* `diagnosis_date`, which is the date when the cancer was diagnosed and set as `DATE`.
+
+All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` constraint is not.
+
 
 
 
