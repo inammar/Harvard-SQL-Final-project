@@ -93,6 +93,17 @@ The `medications` table includes:
 
 All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` or `FOREIGN KEY` constraint is not.
 
+##### Visits
+
+The visits table includes:
+
+* `id`, which specifies the unique ID for the visit as an `INTEGER`. This column thus has the `PRIMARY KEY` constraint applied.
+* `patient_id`, which is the ID of the patient as an `INTEGER`. This column thus has the `FOREIGN KEY` constraint applied referencing the `id` column in the `patients` table to ensure data integrity.
+* `doctor_id`, which is the ID of the doctor as an `INTEGER`. This column thus has the `FOREIGN KEY` constraint applied, referencing the `id` column in the doctors table to ensure data integrity.
+* `visit_date`, which specifies the visit’s date as `DATE`.
+* `reason`, which specifies the reason of the visit as `TEXT`.
+
+All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` or `FOREIGN KEY` constraint is not.
 
 
 
