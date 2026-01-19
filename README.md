@@ -69,6 +69,29 @@ The `diagnoses` table includes:
 
 All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` constraint is not.
 
+##### Treatments
+
+The `treatments` table includes:
+
+* `id`, which specifies the unique ID for the treatment as an `INTEGER`. This column thus has the `PRIMARY KEY` constraint applied.
+* `diagnoses_id`, which is the ID of the patient as an `INTEGER`. This column thus has the `FOREIGN KEY` constraint applied, referencing the `id` column in the `patients table` to ensure data integrity.
+* `doctor_id`, which is the ID of the doctor as an `INTEGER`. This column thus has the `FOREIGN KEY` constraint applied.
+* `treatment_type`, which is the type of the treatment set as `TEXT`.
+* `start_date`, which is the start date of the treatment set as `DATE`,
+* `end_date`, which is the end date of the treatment set as `DATE`.
+
+All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` constraint is not.
+
+##### Medications
+
+The `medications` table includes:
+
+* `id`, which specifies the unique ID for the medication as an `INTEGER`. This column thus has the `PRIMARY KEY` constraint applied.
+* `treatment_id`, which specifies the ID of the treatment as an `INTEGER`. This column thus has the `FOREIGN KEY` constraint applied, referencing the `id` column in the `treatments` table, which ensures that each medication can be referenced back to the treatment.
+* `drug_name`, which is the drug name set as `TEXT`.
+* `dosage`, which contains the dosage as `TEXT`.
+
+All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` or `FOREIGN KEY` constraint is not.
 
 
 
