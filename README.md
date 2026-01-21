@@ -105,6 +105,18 @@ The visits table includes:
 
 All columns are required and hence have the `NOT NULL` constraint applied where a `PRIMARY KEY` or `FOREIGN KEY` constraint is not.
 
+#### Relationships
+
+The entity relationship diagram describes the relationships among the entities in the database.
+
+As detailed by the diagram:
+
+* Doctors-Visits relationships: A doctor can have many visits (one to many). Each visit is associated with one doctor.
+* Patients-Visits relationships: A patient can have many visits. Each visit belongs to one patient.
+* Patients–Diagnoses relationships: One patient can have multiple diagnoses. Each diagnosis belongs to exactly one patient.
+* Patients–Treatments relationships: One patient can have multiple treatments. Each treatment belongs to one patient.
+* Treatments–Medications relationships: Each treatment can include multiple medications. Each medication is associated with one treatment.
+* Diagnosis-Treatments relationships: One diagnosis can lead to one or multiple treatments. Each treatment belongs to one diagnosis.
 
 
 
