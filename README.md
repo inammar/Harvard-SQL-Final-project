@@ -118,5 +118,12 @@ As detailed by the diagram:
 * Treatments–Medications relationships: Each treatment can include multiple medications. Each medication is associated with one treatment.
 * Diagnosis-Treatments relationships: One diagnosis can lead to one or multiple treatments. Each treatment belongs to one diagnosis.
 
+#### Optimizations
+
+Based on typical usage patterns and expected queries within the database, the following indexes have been implemented to optimize performance:
+
+Patient and Doctor Identification:
+
+It is a common requirement for users of the system to quickly identify specific `patients` or `doctors` by their full names. To facilitate rapid searches across both the `patients` and `doctors` tables, composite indexes have been created on the `first_name` and `last_name` columns: `patient_name_search` and `doctor_name_search`.
 
 
