@@ -126,4 +126,11 @@ Patient and Doctor Identification:
 
 It is a common requirement for users of the system to quickly identify specific `patients` or `doctors` by their full names. To facilitate rapid searches across both the `patients` and `doctors` tables, composite indexes have been created on the `first_name` and `last_name` columns: `patient_name_search` and `doctor_name_search`.
 
+Diagnosis Filtering:
+
+Users frequently need to filter and analyze patient data based on specific cancer types. To speed up the identification of diagnoses matching a particular condition, the `cancer_type_search` index has been applied to the `cancer_type` column in the `diagnoses` table.
+
+Medication Tracking:
+
+Efficiently searching for all instances where a specific drug has been prescribed is crucial. To accelerate queries related to medication management, the `drug_name_search` index has been created on the `drug_name column` in the `medications` table.
 
