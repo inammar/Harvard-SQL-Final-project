@@ -134,3 +134,14 @@ Medication Tracking:
 
 Efficiently searching for all instances where a specific drug has been prescribed is crucial. To accelerate queries related to medication management, the `drug_name_search` index has been created on the `drug_name column` in the `medications` table.
 
+Visit Timeline Analysis:
+
+Analyzing visit history or scheduling requires rapid retrieval of records by date. The `visit_date_search` index on the `visit_date` column in the `visits` table ensures quick access to visit records within specified timeframes.
+
+
+
+
+
+
+
+
