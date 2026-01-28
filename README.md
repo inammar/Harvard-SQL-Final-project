@@ -138,6 +138,9 @@ Visit Timeline Analysis:
 
 Analyzing visit history or scheduling requires rapid retrieval of records by date. The `visit_date_search` index on the `visit_date` column in the `visits` table ensures quick access to visit records within specified timeframes.
 
+#### Limitations
+
+The current schema only stores the present information for patients and doctors, preventing any historical tracking of age changes or past specialties. It uses a very rigid, one-to-one link between treatments, medications, and diagnoses, which complicates the tracking of complex care plans. Furthermore, every visit and treatment requires a single assigned doctor, preventing the recording or querying of collaborative and team-based medical care. The database does not accommodate interactions with non-physician staff like nurses, therapists or other additional treatment, limiting comprehensive visit logging. Also, the general visit reason field potentially duplicates specific diagnosis information, risking inconsistent records within the database.
 
 
 
