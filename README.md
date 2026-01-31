@@ -1,5 +1,18 @@
 ## Harvard-SQL-Final-project
 
+<img width="616" height="462" alt="image" src="https://github.com/user-attachments/assets/ce676ffd-a105-48ca-951e-3040d7cf59e5" />
+
+<img width="680" height="408" alt="image" src="https://github.com/user-attachments/assets/974c09c1-7857-449a-bc5b-58b80eb06642" />
+
+<img width="607" height="179" alt="image" src="https://github.com/user-attachments/assets/8c0c2614-0eb8-4540-a444-a6fe9f4a7cc6" />
+
+
+
+
+
+
+
+
 ### Design Document
 
 #### Scope
