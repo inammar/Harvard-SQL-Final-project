@@ -15,6 +15,15 @@ Video of input and output
 https://youtu.be/H89cfMeAd54
 
 
+<img width="649" height="405" alt="image" src="https://github.com/user-attachments/assets/b1b72628-8988-43bd-b6e7-02f8fcdd8afb" />
+
+<img width="588" height="146" alt="image" src="https://github.com/user-attachments/assets/2b5d1553-70f3-47ad-9de3-2a737317c727" />
+
+<img width="622" height="395" alt="image" src="https://github.com/user-attachments/assets/83e7595f-d4cb-4eb7-87b6-dd8e8a2301ba" />
+
+<img width="634" height="331" alt="image" src="https://github.com/user-attachments/assets/9b166c1d-84ca-45b8-99ea-3f3c8f7cfdfe" />
+
+
 ### Design Document
 
 #### Scope
