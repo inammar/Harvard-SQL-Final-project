@@ -1,4 +1,7 @@
-## Harvard-SQL-Final-project
+# Harvard SQL Final project
+
+## Slides of project
+____________________________
 
 <img width="616" height="462" alt="image" src="https://github.com/user-attachments/assets/ce676ffd-a105-48ca-951e-3040d7cf59e5" />
 
@@ -24,7 +27,9 @@ https://youtu.be/H89cfMeAd54
 <img width="634" height="331" alt="image" src="https://github.com/user-attachments/assets/9b166c1d-84ca-45b8-99ea-3f3c8f7cfdfe" />
 
 
-### Design Document
+## Design Document
+
+______________________________
 
 #### Scope
 
